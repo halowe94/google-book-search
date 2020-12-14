@@ -3,7 +3,15 @@ import ListItem from "../BookList/BookList";
 import Button from "react-bootstrap/Button";
 
 //start Book variable
-let Book = ({ title, subtitle, authors, link, description, image, Button }) => {
+const Book = ({
+  title,
+  subtitle,
+  authors,
+  link,
+  description,
+  image,
+  Button,
+}) => {
   const trimText = (str, length, ending) => {
     if (str) {
       if (length == null) {
@@ -59,3 +67,5 @@ let Book = ({ title, subtitle, authors, link, description, image, Button }) => {
   );
 };
 //end function
+
+export default Book;
