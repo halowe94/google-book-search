@@ -1,0 +1,27 @@
+{
+  "name": "google-book-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halowe94/google-book-search.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/halowe94/google-book-search/issues"
+  },
+  "homepage": "https://github.com/halowe94/google-book-search#readme",
+  "dependencies": {
+    "@sentry/browser": "^5.29.1",
+    "axios": "^0.21.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.11.8"
+  }
+}
