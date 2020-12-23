@@ -3,4 +3,4 @@ const GoogleCon = require("../../controllers/GoogleCon");
 
 Router.route("/").get(GoogleCon.findAll);
 
-modeule.exports = Router;
+module.exports = Router;
