@@ -10,5 +10,7 @@ const Save = props => {
         className={classes}
         aria-hidden='true'
         />
-    )
-}
+    );
+};
+
+export default Save;
