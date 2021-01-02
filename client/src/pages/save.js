@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { toast } from "react-toastify";
-import { List } from "../components/BookList/BookList";
+import { BookList } from "../components/BookList/BookList";
 import Book from "../components/Book/Book";
 import API from "../utils/API";
 
@@ -62,7 +62,7 @@ class Save extends Component {
         <div className="row">
           <div className="col-8 col-centered card-content">
             {this.state.books.length ? (
-              <List>
+              <BookList>
                 {this.state.books.map((book) => (
                   <Book
                     key={book._id}
@@ -82,7 +82,7 @@ class Save extends Component {
                     )}
                   />
                 ))}
-              </List>
+              </BookList>
             ) : (
               <div className="mockup-content">
                 <h2 className="brand-title text-center">
