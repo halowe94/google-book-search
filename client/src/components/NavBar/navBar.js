@@ -1,14 +1,16 @@
 import React from "react";
 import "./navBar.css";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, Router } from "react-router-dom";
 
 const NavBar = () => {
   return (
     <React.Fragment>
       <nav className="navbar navbar-expand-lg navbar-light">
-        <Link className="navbar-brand brand-title" to="#">
-          Google Books Search
-        </Link>
+        <Router>
+          <Link className="navbar-brand brand-title" to="#">
+            Google Books Search
+          </Link>
+        </Router>
         <button
           className="navbar-toggler"
           type="button"
